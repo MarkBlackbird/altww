@@ -1,0 +1,13 @@
+#######
+TMP_fascism:0 "Template"
+TMP_fascism_DEF:0 "Template"
+TMP_democratic:0 "Template"
+TMP_democratic_DEF:0 "Template"
+TMP_neutrality:0 "Template"
+TMP_neutrality_DEF:0 "Template"
+TMP_communism:2 "Template"
+TMP_communism_DEF:1 "Template"
+TMP_fascism_ADJ:0 "Templatean"
+TMP_democratic_ADJ:0 "Templatean"
+TMP_neutrality_ADJ:0 "Templatean"
+TMP_communism_ADJ:0 "Templatean"

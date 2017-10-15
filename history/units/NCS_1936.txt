@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "Horsed Militia"			# Cavalry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Militia"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Infantry Brigade"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	division = {
+		name = "I 'Detroit' Division"
+		location = 9724
+		division_template = "Infantry Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NCS" } }
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "II Division"
+		location = 5205
+		division_template = "Militia"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NCS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "III Division"
+		location = 1832
+		division_template = "Militia"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NCS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "IV Division"
+		location = 10593
+		division_template = "Horsed Militia"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NCS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "IV Division"
+		location = 7883
+		division_template = "Horsed Militia"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NCS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "VI Division"
+		location = 12588
+		division_template = "Horsed Militia"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NCS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "VII Division"
+		location = 12685
+		division_template = "Horsed Militia"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NCS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+
+
+	##### No Naval OOB #####
+}
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "NCS"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}
