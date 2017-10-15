@@ -1,6 +1,6 @@
 ﻿capital = 367
 
-#oob = "USA_1936"
+oob = "USA_1936"
 
 set_research_slots = 4
 
@@ -52,8 +52,6 @@ set_technology = {
 		USA_prepare_intervention
 
 		#laws
-		isolation
-		volunteer_only
 
 		new_deal
 	}
@@ -173,9 +171,6 @@ set_politics = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
 	free_trade
 	home_of_the_free
 }
